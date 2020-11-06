@@ -1,0 +1,22 @@
+{
+  "name": "small-grid-table",
+  "version": "0.0.3",
+  "peerDependencies": {
+    "@angular/common": "^10.0.11",
+    "@angular/core": "^10.0.11",
+    "@angular/material": "^10.2.7"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "main": "bundles/small-grid-table.umd.js",
+  "module": "fesm2015/small-grid-table.js",
+  "es2015": "fesm2015/small-grid-table.js",
+  "esm2015": "esm2015/small-grid-table.js",
+  "fesm2015": "fesm2015/small-grid-table.js",
+  "typings": "small-grid-table.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy. This is not allowed.\\nPlease delete and rebuild the package, without compiling with Ivy, before attempting to publish.\\n')\" && exit 1"
+  }
+}
